@@ -1,33 +1,33 @@
-import javax.swing.*;
+
 
 public class robot {
-    private boolean dead = false;
-    private int robotX;
-    private int robotY;
-    private int hunger = 100;
+    public boolean dead = false;
+    public int x = 25;
+    public int y = 25;
+    public int foodlvl = 100;
 
 
 
-    /*if (hunger <= 0) {
+    /*if (foodlvl <= 0) {
         dead = true;
     }
 
-    if (hunger <= 20) {
+    if (foodlvl <= 20) {
         while (robotX > )
     }*/
 
     public void Move(int direction) {
         if (direction == 1) {
-            robotX++;     //UP
+            x++;     //UP
         }
         else if (direction == 2) {
-            robotY++;     //RIGHT
+            y++;     //RIGHT
         }
         else if (direction == 3) {
-            robotX--;     //DOWN
+            x--;     //DOWN
         }
         else if (direction == 4) {
-            robotY--;     //LEFT
+            y--;     //LEFT
         }
     }
 

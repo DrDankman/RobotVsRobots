@@ -1,3 +1,5 @@
+
+
 public class World {
     public food[] matbit;
     public void generateFood() {
